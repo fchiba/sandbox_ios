@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D77B5DB217D8B1000C22007 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D77B5DA217D8B1000C22007 /* WebKit.framework */; };
 		4D900DF32179A1AC001453C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900DF22179A1AC001453C1 /* AppDelegate.m */; };
 		4D900DF62179A1AC001453C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900DF52179A1AC001453C1 /* ViewController.m */; };
 		4D900DF92179A1AC001453C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D900DF72179A1AC001453C1 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D77B5DA217D8B1000C22007 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		4D900DEE2179A1AC001453C1 /* sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D900DF12179A1AC001453C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D900DF22179A1AC001453C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D77B5DB217D8B1000C22007 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D77B5D9217D8B1000C22007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D77B5DA217D8B1000C22007 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4D900DE52179A1AC001453C1 = {
 			isa = PBXGroup;
 			children = (
 				4D900DF02179A1AC001453C1 /* sandbox */,
 				4D900DEF2179A1AC001453C1 /* Products */,
+				4D77B5D9217D8B1000C22007 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
